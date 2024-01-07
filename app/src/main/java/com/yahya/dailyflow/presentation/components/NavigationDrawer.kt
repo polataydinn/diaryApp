@@ -47,21 +47,6 @@ fun NavigationDrawer(
     currentScreen: Screen,
     content: @Composable () -> Unit
 ) {
-    val composition by rememberLottieComposition(spec = LottieCompositionSpec.RawRes(R.raw.morty))
-    var isPlaying by remember { mutableStateOf(true) }
-    val progress by animateLottieCompositionAsState(
-        composition = composition, isPlaying = isPlaying
-    )
-
-
-    LaunchedEffect(key1 = progress) {
-        if (progress == 0f) {
-            isPlaying = true
-        }
-        if (progress == 1f) {
-            isPlaying = false
-        }
-    }
 
 
     val homeIcon = if (currentScreen == Screen.Home) Icons.Filled.Home else Icons.Outlined.Home
@@ -78,14 +63,6 @@ fun NavigationDrawer(
                 contentAlignment = Alignment.Center
             ) {
 
-                LottieAnimation(composition = composition,
-                    modifier = Modifier.fillMaxSize(),
-                    progress = {
-                        if (progress == 1f) {
-                            isPlaying = true
-                        }
-                        progress
-                    })
             }
 
             NavigationDrawerItem(modifier = Modifier.padding(horizontal = 12.dp), label = {
