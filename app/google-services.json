@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "851290608667",
+    "project_id": "dailyflow-dce27",
+    "storage_bucket": "dailyflow-dce27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851290608667:android:dc1d4b95efd8cc14d054be",
+        "android_client_info": {
+          "package_name": "com.yahya.dailyflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXLn7D-2dKcEqn5HAK8NbiYh2RuIqRRzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

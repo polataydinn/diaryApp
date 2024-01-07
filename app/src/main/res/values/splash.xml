@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DailyFlow.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#121212</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_diary</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/DailyFlow</item>
+    </style>
+</resources>
