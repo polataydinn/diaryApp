@@ -1,26 +1,44 @@
 {
   "project_info": {
-    "project_number": "851290608667",
-    "project_id": "dailyflow-dce27",
-    "storage_bucket": "dailyflow-dce27.appspot.com"
+    "project_number": "776174428321",
+    "project_id": "diaryapp-410510",
+    "storage_bucket": "diaryapp-410510.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:851290608667:android:dc1d4b95efd8cc14d054be",
+        "mobilesdk_app_id": "1:776174428321:android:847229c03b4fd3bcc310e0",
         "android_client_info": {
           "package_name": "com.yahya.dailyflow"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "776174428321-5sda6tqtdmb2dagcf5cmfrc6eoalts32.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yahya.dailyflow",
+            "certificate_hash": "562b8a048acf57a2eacf4056ef43af02e09725fb"
+          }
+        },
+        {
+          "client_id": "776174428321-lddmsm7bf8qjc644doq0dalef37uu0tc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyCXLn7D-2dKcEqn5HAK8NbiYh2RuIqRRzg"
+          "current_key": "AIzaSyCblleyCdivAm0dIXDzMY1VH3LI2EnzrO4"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776174428321-lddmsm7bf8qjc644doq0dalef37uu0tc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

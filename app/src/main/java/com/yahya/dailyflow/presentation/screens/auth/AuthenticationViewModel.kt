@@ -75,10 +75,10 @@ class AuthenticationViewModel @Inject constructor(
                     ).loggedIn
                 }
                 withContext(Dispatchers.Main) {
-                    setAuthentication(true)
                     if (result) {
                         onSuccess()
                         delay(600)
+                        setAuthentication(true)
                     }
                 }
             } catch (e: Exception) {

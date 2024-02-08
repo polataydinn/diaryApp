@@ -123,11 +123,9 @@ fun NavGraphBuilder.authenticationRoute(navigateHome: () -> Unit, onDataLoaded: 
             authenticated = authenticated,
             onGoogleSignInClicked = {
                 oneTapSignInState.open()
-                viewModel.authenticated.value = true
                 viewModel.setGoogleLoading(isLoading = true)
             },
             onAnonymousSignIn = {
-                viewModel.authenticated.value = true
                 viewModel.setAnonymousLoading(isLoading = true)
                 firebaseAuth.signInAnonymously().addOnCompleteListener { result ->
                     messageBarState.addSuccess(message = context.getString(R.string.success))

@@ -2,7 +2,7 @@ package com.yahya.dailyflow.util
 
 object Constants {
     const val APP_ID = "application-0-yyroz"
-    const val CLIENT_ID = "776174428321-qegrt831p1s01b04kh8sepeljv5hju3g.apps.googleusercontent.com"
+    const val CLIENT_ID = "776174428321-lddmsm7bf8qjc644doq0dalef37uu0tc.apps.googleusercontent.com"
     private const val DATE_PATTERN = "dd MMM yyyy"
     const val TIME_PATTERN = "hh:mm a"
     const val DATE_TIME_PATTERN = "$DATE_PATTERN, $TIME_PATTERN"
